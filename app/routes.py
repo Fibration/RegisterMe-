@@ -7,4 +7,5 @@ def index():
     return "Hello, World!"
 
 @app.route('/philtest')
+def philtest():
     return "Hello, World! (from phil)"
